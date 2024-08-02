@@ -1,0 +1,54 @@
+// Colors
+$primary-color: #334D5E;
+$secondary-color: #b1b1b1;
+$white-color: #fff;
+$black-color: #000;
+$border-color: #D7D7D7;
+$highlight-color: #334D5EB2;
+
+$box-shadow: #00000014;
+
+// - Background Colors
+$menu-background-color: #7545FF;
+$background-color: #F3F3F3;
+$white-background-color: #fff;
+$gray-background-color: #F8FAFC;
+$dark-gray-background-color: #EAECF0;
+$black-background-color: #000;
+
+// Typography
+$font-family: 'Roboto', sans-serif;
+$font-size-base: 1rem;
+$font-size-small: .8125rem;
+$font-size-normal: 1.125rem;
+$font-size-large: 1.25rem;
+$font-size-xlarge: 2rem;
+$font-size-xxlarge: 2.375rem;
+
+// Container
+$container-max-width: 1050px;
+
+// Utility 
+.container {
+    max-width: $container-max-width;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.text-center {
+    text-align: center;
+  }
+  
+.text-muted {
+    opacity: 0.5;
+}
+
+.highlight{
+    color: $highlight-color;
+    border: .0744rem solid $highlight-color;
+    border-radius: .1487rem;
+}

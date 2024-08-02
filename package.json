@@ -1,0 +1,33 @@
+{
+  "name": "girlsaskguys",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RSametSamyeli/girlsaskguys.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RSametSamyeli/girlsaskguys/issues"
+  },
+  "homepage": "https://github.com/RSametSamyeli/girlsaskguys#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.0",
+    "ionicons": "^7.4.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "sass": "^1.77.6",
+    "sass-loader": "^14.2.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
+}

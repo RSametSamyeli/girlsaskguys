@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: $font-size-base;
+}
+
+body {
+    background-color: $background-color;
+    min-height: 100vh;
+    overflow-x: hidden;
+    color: $primary-color;
+}
+
+h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: $font-size-xlarge;
+    font-weight: 800;
+    line-height: 2.4rem;
+    color: $primary-color;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: $font-size-xxlarge;
+    font-weight: 600;
+    line-height: 2rem;
+    color: $black-color;
+}
+
+a{
+    text-decoration: none;
+    color: $primary-color;
+}

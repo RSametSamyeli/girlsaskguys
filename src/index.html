@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film Searcher</title>
+</head>
+    <body>
+        <header class="header">
+            <nav class="header__navbar">
+                <div class="header__menu">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item"><a href="#" class="header__menu-link"><img src="../src/img/menu-icon.svg" alt="Menu">Menü</a></li>
+                        <li class="header__menu-item"><a href="#" class="header__menu-link"><img src="../src/img/discover-icon.svg" alt="Discover">Keşfet</a></li>
+                        <li class="header__menu-item"><a href="#" class="header__menu-link"><img src="../src/img/search-icon.svg" alt="Search">Ara</a></li>
+                    </ul>
+                </div>
+                <div class="header__logo">
+                    <img src="../src/img/logo.png" alt="Kizlar Soruyor Logo" class="header__logo-image">
+                </div>
+                <div class="header__login">
+                    <a href="#" class="header__login-ask"> <img src="../src/img/message-add.svg" alt="Message Add"> Sor</a>
+                    <a href="#" class="header__login-link"><img src="../src/img/profile-icon.svg" alt="Profile"> Giriş Yap / Üye Ol</a>
+                </div>
+            </nav>
+            <div class="header__categories">
+                <a href="#" class="header__categories-link"><img src="../src/img/avatar1.png" alt="Info"><p> Kızlar Bir Adım Öne</p></a>
+                <a href="#" class="header__categories-link"><img src="../src/img/avatar2.png" alt="Info"><p> Güzellik & Bakım</p></a>
+                <a href="#" class="header__categories-link"><img src="../src/img/avatar3.png" alt="Info"><p> Saç Bakım</p></a>
+                <a href="#" class="header__categories-link"><img src="../src/img/avatar4.png" alt="Info"><p> Yeme & İçme</p></a>
+                <a href="#" class="header__categories-link"><img src="../src/img/avatar5.png" alt="Info"><p> Temizlik İpuçları</p></a>
+                <a href="#" class="header__categories-link"><img src="../src/img/avatar6.png" alt="Info"><p> Spor</p></a>
+            </div>
+        </header>
+        <div class="container d-flex">
+            <div class="content">
+                <a href="#" class="content__categoryBtn">Lorem ipsum</a>
+                <h1 class="content__title">Lorem ipsum dolor sit amet consectetur. Duis posuere nullam augue cursus.</h1>
+                <div class="content__author">
+                    <div class="content__author-image">
+                        <img src="../src/img/author.png" alt="Author">
+                    </div>
+                    <div class="content__author-info">
+                        <span class="author-name">Makenna Carder</span>
+                        <div class="content__author-info__footer">
+                            <span class="highlight">Fenomen</span>
+                            <span class="xper">Xper 2</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="content__description">
+                    <p class="content__description-text">Lorem ipsum dolor sit amet consectetur. Mi suscipit risus vulputate urna ullamcorper facilisi at.</p>
+                    <img src="../src/img/content-picture.png" class="content__description-image" alt="Lorem Ipsum Picture">
+                </div>
+            </div>
+            <div class="sidebar">
+                <div class="sidebar__title"><h5>Related Questions</h5></div>
+                <div class="sidebar__topics">
+                    <a href="#" class="sidebar__topics-item">Lorem ipsum dolor sit amet consectetur. At est sed sit enim sodales sit lobortis volutpat.</a>
+                    <a href="#" class="sidebar__topics-item">Lorem ipsum dolor sit amet</a>
+                    <a href="#" class="sidebar__topics-item">Lorem ipsum dolor sit amet consectetur. Odio pretium a urna.</a>
+                    <a href="#" class="sidebar__topics-item">Lorem ipsum dolor sit amet consectetur. Dignissim mattis in donec viverra sollicitudin turpis.</a>
+                </div>
+                <div class="sidebar__plane" id="openModal">
+                    <img src="../src/img/plane.png" alt="Plane">
+                </div>
+            </div>
+            <div class="modal-overlay" id="modalOverlay"></div>
+            <div class="modal" id="modal">
+                <div class="modal__header">
+                    <h2 id="modalTitle">Plan Your Vacation</h2>
+                    <button class="modal__close" id="closeModal">&times;</button>
+                </div>
+                <div class="modal__body" id="modalContent">
+                    <div class="modal__option" data-option="1">
+                        <p>Where do you want to go on vacation?</p>
+                        <div class="modal__desc">Write the answer</div>
+                    </div>
+                    <div class="modal__option" data-option="2">
+                        <p>Which date ranges are suitable for you?</p>
+                        <div class="modal__desc">Select date range</div>
+                    </div>
+                    <div class="modal__option" data-option="3">
+                        <p>Would you also like to book a hotel?</p>
+                        <div class="modal__desc">Write the answer</div>
+                    </div>
+                    <div class="modal__option" data-option="4">
+                        <p>Do you need help with anything else about your vacation?</p>
+                        <div class="modal__desc">Write the answer</div>
+                    </div>
+                    <button class="modal__plan-now" id="planNow">Plan Now</button>
+                </div>
+                <div class="modal__loading" id="modalLoading">
+                    <div class="modal__loading-image">
+                        <img src="../src/img/loading-icon.svg" alt="Loading">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur. <br> Turpis lorem congue sed viverra id amet.</p>
+                </div>
+                <div class="modal__travel" id="modalTravelGuide">
+                    <img src="../src/img/plane-banner.png" alt="Plane Photo">
+                    <h3 class="modal__travel-title">
+                        Lorem ipsum dolor sit amet consectetur. Etiam ac ut donec amet nec sed dignissim pretium vitae.
+                    </h3>
+                    <p class="modal__travel-desc">
+                        <strong>1. Rome:</strong> Lorem ipsum dolor sit amet consectetur. Etiam ac ut donec amet nec sed dignissim pretium vitae. Morbi nulla proin ac integer sit feugiat commodo enim.
+                        <br><br>
+                        <strong>2. Florence:</strong> Lorem ipsum dolor sit amet consectetur. Etiam ac ut donec amet nec sed dignissim pretium vitae.
+                        <br><br>
+                        <strong>3. Venice:</strong> Lorem ipsum dolor sit amet consectetur. Etiam ac ut donec amet nec sed dignissim pretium vitae. Morbi nulla proin ac integer sit feugiat commodo enim.
+                    </p>
+                    <div class="modal__travel-ads">
+                        <h3 class="modal__travel-ads-title">Lorem ipsum dolor sit amet consectetur.</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. 
+                            <br><br>
+                            Bibendum commodo eget quisque lacinia morbi felis. Id massa adipiscing facilisis fusce ullamcorper id in amet aliquam.
+                        </p>
+                        <div class="modal__travel-ads-footer">
+                            <a href="#" class="modal__travel-ads-footer-button">Explorer Now</a>
+                            <img src="../src/img/turkish-airlines-logo.svg" alt="Turkish Airlines Logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </body>
+</html>
